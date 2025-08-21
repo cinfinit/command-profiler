@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "newprofileas": [
+      "sample thing"
+    ],
+    "newprofileaskj": [
+      "node hello.js"
+    ]
+  }
+}

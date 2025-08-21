@@ -1,0 +1,50 @@
+{
+  "name": "command-profiler",
+  "version": "1.0.0",
+  "description": "Scoped command profiles for project & global usage",
+  "main": "index.js",
+  "bin": {
+    "cmdprofiler": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"keywords": [
+  "cli",
+  "command",
+  "profile",
+  "profiles",
+  "task",
+  "task-runner",
+  "command-runner",
+  "automation",
+  "project-profiles",
+  "global-profiles",
+  "scoped",
+  "task-manager",
+  "command-line",
+  "profile-manager",
+  "developer-tool",
+  "productivity",
+  "npm-cli",
+  "dev-tool",
+  "task-automation"
+]
+,
+"bugs": {
+  "url": "https://github.com/cinfinit/command-profiler/issues"
+},
+"homepage": "https://github.com/cinfinit/command-profiler#readme",
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/cinfinit/command-profiler.git"
+},
+  "author": "cinfinit",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "inquirer": "^12.9.3"
+  }
+}
