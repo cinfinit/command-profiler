@@ -41,7 +41,7 @@ npm install -g command-profiler
 Before using command-profiler inside a project, you can run:
 
 ```bash
-cmdprofiler init
+npx cmdprofiler init
 ```
 
 
@@ -64,7 +64,7 @@ Once initialized, any profiles you create from this folder (and any subfolders) 
 ### Create a profile
 
 ```bash
-cmdprofiler create dev
+npx cmdprofiler create dev
 ```
 
 You’ll be prompted to enter commands one-by-one. Press enter on an empty line when done.
@@ -74,7 +74,7 @@ You’ll be prompted to enter commands one-by-one. Press enter on an empty line 
 ### List profiles
 
 ```bash
-cmdprofiler list
+npx cmdprofiler list
 ```
 
 ---
@@ -82,7 +82,7 @@ cmdprofiler list
 ### Run a profile
 
 ```bash
-cmdprofiler run dev
+npx cmdprofiler run dev
 ```
 
 ---
@@ -90,7 +90,7 @@ cmdprofiler run dev
 ### Edit a profile
 
 ```bash
-cmdprofiler edit dev
+npx cmdprofiler edit dev
 ```
 
 ---
@@ -98,7 +98,7 @@ cmdprofiler edit dev
 ### Delete a profile
 
 ```bash
-cmdprofiler delete dev
+npx cmdprofiler delete dev
 ```
 
 ---
@@ -115,21 +115,21 @@ cd ~/Projects/my-awesome-app
 Run the init command:
 
 ```bash
-cmdprofiler init
+npx cmdprofiler init
 ```
 
 
 Create your first profile:
 
 ```bash
-cmdprofiler create dev
+npx cmdprofiler create dev
 ```
 
 
 List and run it:
 ```bash
-cmdprofiler list
-cmdprofiler run dev
+npx cmdprofiler list
+npx cmdprofiler run dev
 ```
 
 
@@ -141,8 +141,8 @@ Now you're flying. 🛫
 * Use `--global` flag to manage global profiles:
 
 ```bash
-cmdprofiler list --global
-cmdprofiler create deploy --global
+npx cmdprofiler list --global
+npx cmdprofiler create deploy --global
 ```
 
 * Profiles are stored in:
